@@ -1,0 +1,12 @@
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/service/BirimServiceImpl.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/cobfig/SwaggerConfig.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/SpringK8SApiApplication.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/controller/BirimController.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/controller/AuthController.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/model/Birim.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/service/UserServiceImpl.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/repository/UserRepository.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/service/BirimService.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/model/User.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/service/UserService.java
+/home/savas/CUSTOM/java/SpringK8SApi/src/main/java/com/k8s/repository/BirimRepository.java

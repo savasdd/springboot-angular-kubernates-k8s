@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: #api name and labels
+  name: front-k8s
+spec:
+  replicas: 1
+  selector:
+    matchLabels: #name singale service
+      app: front-k8s
+  template: #template info
+    metadata:
+      labels:
+        app: front-k8s
+    spec:
+      containers:
+        - name: front-k8s #images name
+          image: frontend-k8s:latest
+          imagePullPolicy: Never #Never
+          ports:
+            - containerPort: 80

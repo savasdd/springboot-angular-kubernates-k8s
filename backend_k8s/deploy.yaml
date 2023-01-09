@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: #api name and labels
+  name: spring-k8s
+spec:
+  replicas: 2
+  selector:
+    matchLabels: #name singale service
+      app: spring-k8s
+  template: #template info
+    metadata:
+      labels:
+        app: spring-k8s
+    spec:
+      containers:
+        - name: spring-k8s #images name
+          image: backend-k8s:latest
+          imagePullPolicy: Never #Never
+          ports:
+            - containerPort: 8085
+          env:
+            - name: DB_HOST
+              value: postgres
+            - name: DB_PORT
+              value: "5432"
+            - name: DB_NAME
+              value: postgresdb
+            - name: DB_USERNAME
+              value: postgres
+            - name: DB_PASSWORD
+              value: postgres
